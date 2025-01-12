@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Memory Showcase</title>
+    
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            color: #fff;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 2.8em;
+            color: #ffcccc;
+            text-shadow: 2px 2px 5px rgba(255, 0, 127, 0.5);
+        }
+
+        p {
+            font-size: 1.3em;
+            color: #ffb6c1;
+        }
+
+        /* Main Content */
+        .main-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: rgba(255, 192, 203, 0.2);
+            padding: 15px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0px 4px 6px rgba(255, 105, 180, 0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 15px rgba(255, 20, 147, 0.7);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 3px solid #ff69b4;
+        }
+
+        .card h2 {
+            margin: 10px 0;
+            color: #ff1493;
+        }
+
+        /* Goodbye Story Box */
+        .goodbye-box {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: rgba(255, 182, 193, 0.2);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 10px rgba(255, 20, 147, 0.6);
+            text-align: center;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        .goodbye-box p {
+            font-size: 1.5em;
+            color: #ffd1dc;
+            line-height: 1.8;
+            font-style: italic;
+        }
+
+        /* Fade In Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Our Romantic Journey</h1>
+    <p>Start Date: September 8, 2021</p>
+    
+    <div class="main-content">
+        <div class="card">
+            <img src="https://iili.io/24RCF3l.jpg" alt="Memory 1">
+            <h2>Our First Meeting</h2>
+            <p>The beginning of something beautiful.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/24RuFVt.jpg" alt="Memory 2">
+            <h2>First Date</h2>
+            <p>A night to remember forever.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/24RRgln.jpg" alt="Memory 3">
+            <h2>Unforgettable Getaway</h2>
+            <p>Lost in each other's world.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/24Ra1ea.jpg" alt="Memory 4">
+            <h2>Our Song</h2>
+            <p>Dancing under the moonlight.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/24RWs24.jpg" alt="Memory 5">
+            <h2>Anniversary Celebration</h2>
+            <p>Marking another year of love.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/24Rw2af.jpg" alt="Memory 6">
+            <h2>Romantic Sunset</h2>
+            <p>Holding hands as the sun sets.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/24RSies.jpg" alt="Memory 7">
+            <h2>Rainy Day Love</h2>
+            <p>Dancing in the rain, feeling alive.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/24RihCb.jpg" alt="Memory 8">
+            <h2>Surprise Gift</h2>
+            <p>A token of my love, just for you.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/24RtgEu.jpg" alt="Memory 9">
+            <h2>Late Night Talks</h2>
+            <p>Whispering secrets under the stars.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/24Ry2ln.jpg" alt="Memory 10">
+            <h2>Cozy Winter Nights</h2>
+            <p>Wrapped in love and warm blankets.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/2452DRn.jpg" alt="Memory 11">
+            <h2>Heartfelt Letters</h2>
+            <p>Words from the heart that last forever.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/245KQUB.jpg" alt="Memory 12">
+            <h2>Our Secret Spot</h2>
+            <p>A place only we know and cherish.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/245nB24.jpg" alt="Memory 13">
+            <h2>First Trip Together</h2>
+            <p>Adventuring hand in hand.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/245zmMX.jpg" alt="Memory 14">
+            <h2>Movie Night</h2>
+            <p>Cuddled up, lost in the moment.</p>
+        </div>
+        <div class="card">
+            <img src="https://iili.io/245ujFn.jpg" alt="Memory 15">
+            <h2>Last Goodbye</h2>
+            <p>A love that will never fade.</p>
+        </div>
+    </div>
+
+    <!-- Goodbye Story Box (Separate from Cards) -->
+    <div class="goodbye-box">
+        <p>
+            As the pages of our love story come to a close, I cherish every moment we shared.  
+            The laughter, the tears, the whispered "I love yous"—they will forever live in my heart.  
+            Though our paths may part, the memories we created will remain timeless,  
+            like the stars that shone on our first night together.  
+        </p>
+    </div>
+
+    <p>End Date: December 24 - A love that lasts forever.</p>
+</body>
+</html>
